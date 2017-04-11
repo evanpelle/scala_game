@@ -1,0 +1,12 @@
+-- implement ai (finish 6/15)
+
+-- game mechanics (mines, resources, cities, buildings)
+
+-- walking, attacking animation (finish by 5/15)
+
+--DONE-- attack system, action mechanics, communication between overlay and game (finish by 3/15)
+--DONE-- move distance mechanics, automove ai, shortest path algorithm (finish by 4/1)
+--DONE-- menu system with user input to move players, click on tiles, build structure (finish by 3/1)
+--DONE-- use tiled and libgdx map instead 2/15
+--DONE-- objects on tiles, can move player 1/29
+--DONE-- Create scrollable hex grid with clickable tiles 1/26

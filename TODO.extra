@@ -1,0 +1,150 @@
+-- refactor playScreen
+
+-- bring back hover menu
+
+-- implement archer class
+
+-- implement boat animation
+
+-- implement harbor
+
+-- implement river (without animation)
+
+-- implement walls (without animation)
+
+-- make playable game
+
+--DONE-- can't build something if it would destroy something else 5/28, 164
+--DONE-- ai soldiers attack nearest thing, no errors 5/28, 164
+--DONE-- sort by distance in ai helper 5/25, 164
+--DONE-- implement attack animation 5/21, 163
+--DONE-- tileFactory takes gem and gameMap as constructor 5/21, 160
+--DONE-- cities build people (with resources) 5/21, 160
+--DONE-- each builder has list what they can build, only build that 5/21, 160
+--DONE-- click menu refreshes after action 5/15, 159
+--DONE-- build resource menu 5/15, 159
+--DONE-- remove invisiblegamemap 5/15, 158
+--DONE-- need resources to build things 5/15, 158
+--DONE-- make walking animation 5/10, 157
+--DONE-- implement mines (build resources) 5/3, 156
+--DONE-- implement forests (can build mill) 5/3, 156
+--DONE-- implement tile names 5/3, 156
+--DONE-- implement adding more options to click menu from actionfinder 5/3, 155
+--DONE-- implement DeathAction 5/2, 154
+--DONE-- figure out walking animation 5/2, 154
+--DONE-- implement ai player (barbarians that only attack) 4/29, 150
+--DONE-- move stuff from GameMap to Location 4/28, 148
+--DONE-- find shortest path to target 4/28, 147
+--DONE-- rebuild tests 4/15, 143
+--DONE-- re-implement building 4/15, 143
+--DONE-- refactor, build animationFactory 4/14, 143
+--DONE-- bring back markers 4/14, 142
+--DONE-- bring back boarding 4/13, 141
+--DONE-- bring back ships, cities, forts 4/12
+--DONE-- change all defs to var in tile attributes
+--DONE-- fix tile animation 4/12
+--DONE-- bring back attacking 4/12
+--DONE-- refactor all tile classes like crazy 4/12
+--DONE-- fire endTurn, begin turn events for each player 4/6
+--DONE-- end turn button alternates player turn 4/6
+--DONE-- implement playerManager 4/6
+--DONE-- animation to differentiate players 4/5
+--DONE-- run out of moves until new turn 4/4
+--DONE-- implement ActionFinder to find actions tiles can take 4/4
+--DONE-- people can leave ships 4/4
+--DONE-- ships only move on water 4/4
+--DONE-- need resources to build things 4/3
+--DONE-- implement players 3/31
+--DONE-- build ITile interface 3/31
+--DONE-- build testable gameMap 3/28
+--DONE-- people can board ships 3/27
+--DONE-- implement ships 3/27
+--DONE-- implement building 3/27
+--DONE-- implement resources 3/27
+--DONE-- implement turns 3/26
+--DONE-- GameEventManager doesnt need gameMap 3/26
+--DONE-- implement cities 3/18
+--DONE-- have tile animation follow path 3/16
+--DONE-- refactor walking to store path 3/15
+--DONE-- fix edge cuttign off while scrolling 3/14
+--DONE-- fix menu resizing button stop working 3/14
+--DONE-- click soldier -> attack button -> player to attack 3/13
+--DONE-- clicking attack button highlights targets in red 3/13
+--DONE-- build game map event system 3/13
+--DONE-- implement AttackAction class 3/13
+--DONE-- create tileAnimationClass, use that to do animations 3/11
+--DONE-- implement click listener 3/9
+--DONE-- refactor walking overlay tiles to use click listeners 3/9
+--DONE-- fix dependency between overlay and GameInput 3/9
+--DONE-- implement attacking trait to store variables (health, defense, attack) 3/7
+--DONE-- allow a tile to send an object containing instructions, overlay returns a command to game 3/7
+--DONE-- build action class to perform action on board 3/6
+--DONE-- make walkability a trait, remove from persontile 3/6
+--DONE-- handle adding tile in wrong layer or name 3/6
+--DONE-- fix menu, use stack 3/6
+--DONE-- highlight tiles that a person can walk on, only allow move on highlighted tiles 3/3
+--DONE-- new class to handle overlay on gamemap 3/3
+--DONE-- calculate distance to each tile 3/2
+--DONE-- implement if you can walk on tile, tile moving difficulty, how far person can walk 2/24
+--DONE-- double tile size 2/23
+--DONE-- refactor tiles, put each tile type in own package 2/23
+--DONE-- make objects that use same texture point to the same texture 2/23
+--DONE-- refactor tile class, create TileFactory to handling tile creation 2/23
+--DONE-- refactor game_map, create map process class, game_map should have no processing 2/23
+--DONE-- refactor game_map, make new stage class to hold game map 2/22
+--DONE-- click worker -> menu -> build fort 2/22
+--DONE-- implement fort class 2/22
+--DONE-- implement worker class 2/22
+--DONE-- clicking brings up second menu 2/22
+--DONE-- find way to keep menus same size, but keep position 2/22
+--DONE-- scrolling over tile brings up menu of that tile (picture, name) 2/21
+--DONE-- download and use skin 2/21
+--DONE-- create simple menu 2/19
+--DONE-- clicking player then tile moves player 2/18
+--DONE-- create player layer, allow it to update 2/18
+--DONE-- parse tmx to get image locations, offset, other things 2/18
+--DONE-- highlight hovering tiles 2/17
+--DONE-- clicking a tile highlights it 2/17
+--DONE-- rename files, feature -> terrain 2/17
+--DONE-- allow feature layer to update 2/16
+--DONE-- tiles can update, have own class, can change tile 2/15
+--DONE-- convert project libgdx 2/15
+--DONE-- make map tiles clickable 2/15
+--DONE-- change a tile through code 2/14
+--DONE-- create Tile class 2/14
+--DONE-- create very basic game setup 2/14
+--DONE-- learn about libgdx tiled map 2/14
+--DONE-- load and run tiled map with tile map library 2/11
+--DONE-- implement game and screen classes 2/10
+--DONE-- add project to github
+--DONE-- create basic tiled map 2/8
+--DONE-- get libgdx working with ide 2/7
+--DONE-- switch to ide 2/3
+--DONE-- implement SideObject 2/3
+--DONE-- implement SideMap, HexMap class, rename HexMap to GameMap 2/2
+--DONE-- refactor animation 2/1
+--DONE-- create game object abstract class 2/1
+--DONE-- break render to seperate classes 1/31
+--DONE-- each hextile classes can get it's neighboring hextiles 1/31
+--DONE-- implement Side map 1/31
+--DONE-- implement Side class 1/31
+--DONE-- add testing framework 1/31
+--DONE-- refactor renderers 1/28
+--DONE-- click 2 tiles to move person 1/28
+--DONE-- create Person class 1/27
+--DONE-- create features (building, fort) 1/27
+--DONE-- loc to pos function 1/27
+--DONE-- create landscapes (plains, forest, ocean) 1/27
+--DONE-- map click location to hex 1/26
+--DONE-- move .class file to one directory 1/26
+--DONE-- figure out mouse input 1/26
+--DONE-- limit frames --DONE-- 1/25
+--DONE-- add project to github --DONE 1/25
+--DONE-- fix zooming --DONE-- 1/25
+--DONE-- render hex grid --DONE 1/25
+--DONE-- figure out input --DONE-- 1/25
+--DONE-- turn image to hex --DONE-- 1/25
+--DONE-- get slick2d working with scala --DONE--
+--DONE-- time tracking software --DONE--
+--DONE-- learn sbt --DONE--
+--DONE-- add native libraries --DONE--
